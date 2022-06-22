@@ -18,7 +18,8 @@ jobs:
               env: 
                 VERCEL_ORG_ID: EL8sDhVO7MROzeONs9cB1VQR
                 VERCEL_PROJECT_ID: prj_nZhocRrQ0SRxTiWfMyjThVpzZSrR    
-              run: vercel deploy            
+              run: vercel login && vercel deploy
+                
             - name: Setup Finish
               run: echo "Hurray"
 
