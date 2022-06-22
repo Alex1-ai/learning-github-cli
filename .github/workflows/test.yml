@@ -16,8 +16,12 @@ jobs:
               run : npm install -g vercel
             - name: Deploying the project
               env: 
+                GITHUB_PASSWORD: 1236Jesus 
+                VERCEL_TOKEN: EL8sDhVO7MROzeONs9cB1VQR
                 VERCEL_ORG_ID: EL8sDhVO7MROzeONs9cB1VQR
-                VERCEL_PROJECT_ID: prj_nZhocRrQ0SRxTiWfMyjThVpzZSrR    
+                VERCEL_PROJECT_ID: prj_nZhocRrQ0SRxTiWfMyjThVpzZSrR
+                  
+
               run: vercel login && vercel deploy
                 
             - name: Setup Finish
