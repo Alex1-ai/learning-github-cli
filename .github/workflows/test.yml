@@ -22,7 +22,7 @@ jobs:
                 VERCEL_PROJECT_ID: prj_nZhocRrQ0SRxTiWfMyjThVpzZSrR
                   
 
-              run: vercel login && vercel deploy
+              run: vercel login && vercel deploy && Enter
                 
             - name: Setup Finish
               run: echo "Hurray"
